@@ -1,0 +1,134 @@
+body {
+  font-size: 28px;
+  font-family: Montserrat, Arial;
+  background-color: black;
+  color:white;
+}
+.descriptionButtons {
+    
+
+}
+.descriptionButtons a{
+    font-size: 20px;
+    font-family: Montserrat, Arial;
+    padding:15px;
+    text-decoration: none;
+
+}
+.descriptionButtons a:hover{
+    border:2px solid white
+
+}
+
+
+.logo{
+    display: flex;
+    margin-left: auto;
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
+    margin-right:50px;
+    background: #555;
+    border-radius: 50%;
+}
+
+nav {
+  list-style-type: none;
+  overflow: hidden;
+  color:rgb(109, 108, 108);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ul{
+    list-style-type: none;
+
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    cursor: pointer;
+    background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+.description{
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top:300px;
+    justify-content: center;
+
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    color: black;
+}
+
+.container-black{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
+.description div{
+
+    justify-content: center;
+
+
+} 
+
+header{
+    margin-top: 200px;
+    height: 800px;
+}
+span{
+    color:#ffff00;
+}
+.explore {
+    font-family: Montserrat, Arial;
+
+    background-color: #ffff00;
+    border-radius: 9999px;
+    height:80px;
+}
+.explore {
+    font-family: Montserrat, Arial;
+    background-color: #ffff00;
+    color: black;
+    border-radius: 9999px;
+    padding:80px;
+}
+.resume {
+    font-family: Montserrat, Arial;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    border-radius: 9999px;
+    padding:80px;
+}
+a:active{
+    color:#111
+}
