@@ -76,10 +76,9 @@ body {
 
 
 ul {
+    padding-inline-start: 0px;
     list-style-type: none;
-
 }
-
 
 .active {
     background-color: #4CAF50;
@@ -103,18 +102,11 @@ ul {
 
 }
 
-.container {
-    width: 100%;
-    height: 500px;
-    background-color: white;
-    color: black;
-}
-
-.container-black {
-    width: 100%;
-    height: 500px;
-    background-color: rgb(0, 0, 0);
-    color: white;
+section h3{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color:yellow;
 }
 
 .description div {
@@ -126,7 +118,7 @@ ul {
 
 header {
     margin-top: 200px;
-    height: 800px;
+    height: 600px;
 }
 
 span {
@@ -160,3 +152,45 @@ span {
 a:active {
     color: #111
 }
+
+.skillsContainer{
+    text-align: center;
+    font-size: 0.7rem;
+    border-color:white;
+    border-radius: 50px;
+    padding: 48px;
+    
+}
+
+section {
+    padding-bottom: 50px;
+    margin: auto;
+    width:50%;
+    max-width: 1124px;
+    
+}
+
+.skillsGrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(80px, 1fr))[auto-fill];
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+
+}
+.skillsGrid li {
+    padding: 10px;
+    border-radius: 15px;
+    width: 80px;
+    border: 1px solid yellow;
+}
+
+.skillsGrid li:hover {
+    box-shadow: 2px 2px 50px yellow;
+}
+.skillsGrid li img {
+    width: 35px;
+    height: 35px;
+}
+
