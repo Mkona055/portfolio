@@ -54,7 +54,6 @@ body {
     font-size: 20px;
     font-family: Montserrat, Arial;
     padding: 15px;
-    text-decoration: none;
 
 }
 
@@ -88,7 +87,6 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    text-align: center;
 }
 
 .description {
@@ -118,7 +116,7 @@ section h3{
 
 header {
     margin-top: 200px;
-    height: 600px;
+    height: 800px;
 }
 
 span {
@@ -168,10 +166,7 @@ section {
     
 }
 
-.skillsContainer{
-    margin:auto;
-    width:50%;
-}
+
 
 .skillsGrid {
     display: -ms-grid;
@@ -207,18 +202,19 @@ section {
     
 }
 .projImage{
-    max-width: 500px;
+    width: 800px;
 
 }
 .projImage img{
-    width: 100%;
+    width: 500px;
     border-radius: 10px;
     margin-right:20px;
+    margin-top:50px;
+
     border: 1px solid #ddd;
 }
 .projLinks a{
     padding-right: 20px;;
-    text-decoration: none;
     color:yellow
 }
 
@@ -236,4 +232,37 @@ section {
     margin-left: 200px;
     padding:30px;
     
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+footer a:hover{
+    text-decoration: underline;
+
+}
+footer{
+
+    margin-top: 70px;
+}
+.typeBox{
+    margin:auto;
+    width:50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.socials{
+    text-align: center;
+    float: none;
+}
+.socials a:hover{    
+    text-decoration: underline;
+}
+.contact-icon{
+    width: 35px;
+    height: 35px;
+    padding-right:20px;
 }
