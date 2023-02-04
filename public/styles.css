@@ -164,10 +164,13 @@ a:active {
 
 section {
     padding-bottom: 50px;
-    margin: auto;
-    width:50%;
-    max-width: 1124px;
+
     
+}
+
+.skillsContainer{
+    margin:auto;
+    width:50%;
 }
 
 .skillsGrid {
@@ -194,3 +197,43 @@ section {
     height: 35px;
 }
 
+
+.projDescription {
+    margin-left: 30px;
+    
+}
+.projDescription ul , a{
+    font-size: 20px;
+    
+}
+.projImage{
+    max-width: 500px;
+
+}
+.projImage img{
+    width: 100%;
+    border-radius: 10px;
+    margin-right:20px;
+    border: 1px solid #ddd;
+}
+.projLinks a{
+    padding-right: 20px;;
+    text-decoration: none;
+    color:yellow
+}
+
+.projLinks a:hover{
+    text-decoration: underline;
+}
+
+.project{
+    display: flex;
+    border: 1px solid yellow;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding:30px;
+    
+}
