@@ -46,7 +46,7 @@ body {
     margin: auto;
     font-size: 28px;
     font-family: Montserrat, Arial;
-    background-color: black;
+    background-color: #000000;
     color: white;
 }
 
@@ -154,7 +154,7 @@ a:active {
 .skillsContainer{
     text-align: center;
     font-size: 0.7rem;
-    border-color:white;
+    border-color:#ffffff;
     border-radius: 50px;
     padding: 48px;
     
@@ -181,7 +181,7 @@ section {
     padding: 10px;
     border-radius: 15px;
     width: 80px;
-    border: 1px solid yellow;
+    border: 1px solid #ffff00;
 }
 
 .skillsGrid li:hover {
