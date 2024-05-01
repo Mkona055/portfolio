@@ -54,13 +54,11 @@ body {
     font-size: 20px;
     font-family: Montserrat, Arial;
     padding: 15px;
-
 }
 
 .descriptionButtons a:hover {
-    border: 2px solid white
+    border: 2px solid white;
 }
-
 
 .logo {
     display: flex;
@@ -72,7 +70,6 @@ body {
     background: #555;
     border-radius: 50%;
 }
-
 
 ul {
     padding-inline-start: 0px;
@@ -97,21 +94,17 @@ ul {
     width: 50%;
     top: 300px;
     justify-content: center;
-
 }
 
-section h3{
+section h3 {
     margin: auto;
     width: 50%;
     text-align: center;
-    color:yellow;
+    color: yellow;
 }
 
 .description div {
-
     justify-content: center;
-
-
 }
 
 header {
@@ -123,60 +116,45 @@ span {
     color: #ffff00;
 }
 
-.explore {
-    font-family: Montserrat, Arial;
-
-    background-color: #ffff00;
-    border-radius: 9999px;
-    height: 80px;
-}
-
-.explore {
+.explore,
+.resume {
     font-family: Montserrat, Arial;
     background-color: #ffff00;
     color: black;
     border-radius: 9999px;
-    padding: 80px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
 }
 
-.resume {
-    font-family: Montserrat, Arial;
-    background-color: rgb(0, 0, 0);
+.explore:hover,
+.resume:hover {
+    background-color: black;
     color: yellow;
-    border-radius: 9999px;
-    padding: 80px;
 }
 
-a:active {
-    color: #111
-}
-
-.skillsContainer{
+.skillsContainer {
     text-align: center;
     font-size: 0.7rem;
-    border-color:#ffffff;
+    border-color: #ffffff;
     border-radius: 50px;
     padding: 48px;
-    
 }
 
 section {
     padding-bottom: 50px;
-
-    
 }
-
-
 
 .skillsGrid {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(80px, 1fr))[auto-fill];
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     grid-column-gap: 50px;
     grid-row-gap: 50px;
-
+    justify-content: center;
 }
+
 .skillsGrid li {
     padding: 10px;
     border-radius: 15px;
@@ -187,82 +165,123 @@ section {
 .skillsGrid li:hover {
     box-shadow: 2px 2px 50px yellow;
 }
+
 .skillsGrid li img {
     width: 35px;
     height: 35px;
 }
 
-
 .projDescription {
     margin-left: 30px;
-    
 }
-.projDescription ul , a{
+
+.projDescription ul,
+a {
     font-size: 20px;
-    
 }
-.projImage{
-    width: 800px;
 
-}
-.projImage img{
-    width: 500px;
+.projImage img {
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    margin-right:20px;
-    margin-top:50px;
-
+    margin-right: 20px;
+    margin-top: 50px;
     border: 1px solid #ddd;
 }
-.projLinks a{
-    padding-right: 20px;;
-    color:yellow
+
+.projLinks a {
+    padding-right: 20px;
+    color: yellow;
 }
 
-.projLinks a:hover{
+.projLinks a:hover {
     text-decoration: underline;
 }
 
-.project{
+.project {
     display: flex;
     border: 1px solid yellow;
     border-radius: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
-    padding:30px;
-    
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-a{
+
+a {
     text-decoration: none;
     color: #ffffff;
-
 }
-footer a:hover{
+
+footer a:hover {
     text-decoration: underline;
-
 }
-footer{
 
+footer {
     margin-top: 70px;
 }
-.typeBox{
-    margin:auto;
-    width:50%;
+
+.typeBox {
+    margin: auto;
+    width: 50%;
     padding: 10px;
     display: flex;
     justify-content: center;
-
 }
-.socials{
+
+.socials {
     text-align: center;
     float: none;
 }
-.socials a:hover{    
+
+.socials a:hover {
     text-decoration: underline;
 }
-.contact-icon{
+
+.contact-icon {
     width: 35px;
     height: 35px;
-    padding-right:20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .center {
+        width: 80%;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+    section h3 {
+        width: 80%;
+    }
+
+    .skillsContainer {
+        padding: 20px;
+    }
+
+    .skillsGrid {
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .projDescription {
+        margin-left: 0;
+    }
+
+    .typeBox {
+        width: 80%;
+    }
+
+    .project {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 }
